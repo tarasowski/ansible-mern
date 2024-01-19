@@ -33,6 +33,6 @@ Mern stack with ansible
     - name: Start application
       command: npm start
       args:
-        chdir: /home/ubuntu/myapp
+        chdir: /home/ubuntu/myapp # Ansible will change the current working directory to /home/ubuntu/myapp on the target hosts before executing the rest of the tasks in the playbook.
 ...
 ```
