@@ -1,6 +1,7 @@
 # ansible-mern
 Mern stack with ansible
 
+```yml
 ---
 - hosts: your_ec2_ip
   become: yes
@@ -34,3 +35,4 @@ Mern stack with ansible
       args:
         chdir: /home/ubuntu/myapp
 ...
+```
